@@ -18,6 +18,19 @@
     A CSS theme with the power of the <a href="https://bulma.io/">Bulma framework</a>.
   </p>
 
+  <div>
+    <pre><code><span class="keyword">extension</span> <span class="type">String</span> {
+      <span class="keyword">func</span> capitalizingFirstLetter() -&gt; <span class="type">String</span> {
+          <span class="keyword">return</span> <span class="call">prefix</span>(<span class="number">1</span>).<span class="property">capitalized</span> + <span class="call">dropFirst</span>()
+      }
+  
+      <span class="keyword">mutating func</span> capitalizeFirstLetter() {
+          <span class="keyword">self</span> = <span class="keyword">self</span>.<span class="call">capitalizingFirstLetter</span>()
+      }
+  }
+  </code></pre>
+  </div>
+
   <div class="field">
     <div class="control">
       <input class="input" type="text" placeholder="Input">
@@ -35,8 +48,27 @@
   </div>
 
   <div class="buttons">
-    <a class="button is-primary">Primary</a>
-    <a class="button is-link">Link</a>
+    <button class="button is-primary">Primary</button>
+    <button class="button is-link">Link</button>
+  </div>
+  
+  <div class="buttons">
+    <button class="button is-info">Info</button>
+    <button class="button is-success">Success</button>
+    <button class="button is-warning">Warning</button>
+    <button class="button is-danger">Danger</button>
+  </div>
+
+  <div class="buttons">
+    <button class="button is-primary is-light">Primary</button>
+    <button class="button is-link is-light">Link</button>
+  </div>
+  
+  <div class="buttons">
+    <button class="button is-info is-light">Info</button>
+    <button class="button is-success is-light">Success</button>
+    <button class="button is-warning is-light">Warning</button>
+    <button class="button is-danger is-light">Danger</button>
   </div>
 </body>
 

@@ -1,6 +1,43 @@
 @charset "utf-8";
 
-$title-color: #ff0000;
-$primary: #007aff; // iOS blue light
+// Main reference: https://bulma.io/documentation/customize/with-webpack/#9-add-your-own-bulma-styles
 
-@import "./bulma-0.8.0/bulma.sass";
+// $title-color: #ff0000;
+$primary: #007aff;
+$link: #007aff;
+$success: #34C759;
+$danger: #FF3B30;
+$warning: #FFCC00;
+
+// Color reference: https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/
+
+// @import "./bulma-0.8.0/bulma.sass"; // all
+
+@import "./bulma-0.8.0/sass/utilities/_all.sass";
+
+@import "./bulma-0.8.0/sass/base/_all.sass";
+
+@import "./bulma-0.8.0/sass/elements/box.sass";
+@import "./bulma-0.8.0/sass/elements/button.sass";
+@import "./bulma-0.8.0/sass/elements/container.sass";
+@import "./bulma-0.8.0/sass/elements/content.sass";
+// @import "./bulma-0.8.0/sass/elements/form.sass"; // deprecated file
+@import "./bulma-0.8.0/sass/elements/icon.sass";
+@import "./bulma-0.8.0/sass/elements/image.sass";
+@import "./bulma-0.8.0/sass/elements/notification.sass";
+// @import "./bulma-0.8.0/sass/elements/other.sass"; // number class problem
+@import "./bulma-0.8.0/sass/elements/progress.sass";
+@import "./bulma-0.8.0/sass/elements/table.sass";
+@import "./bulma-0.8.0/sass/elements/tag.sass";
+@import "./bulma-0.8.0/sass/elements/title.sass";
+
+@import "./bulma-0.8.0/sass/form/_all.sass";
+
+@import "./bulma-0.8.0/sass/components/card.sass";
+@import "./bulma-0.8.0/sass/components/menu.sass";
+@import "./bulma-0.8.0/sass/components/navbar.sass";
+@import "./bulma-0.8.0/sass/components/tabs.sass";
+
+@import "./bulma-0.8.0/sass/grid/_all.sass";
+
+@import "./bulma-0.8.0/sass/layout/_all.sass";
