@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 // Main reference: https://bulma.io/documentation/customize/with-webpack/#9-add-your-own-bulma-styles
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
 
 // $title-color: #ff0000;
 $primary: #007aff;
@@ -8,6 +10,8 @@ $link: #007aff;
 $success: #34C759;
 $danger: #FF3B30;
 $warning: #FFCC00;
+
+$family-monospace: 'Fira Mono', monospace;
 
 // Color reference: https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/
 
