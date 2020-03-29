@@ -5,11 +5,16 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
 
 // $title-color: #ff0000;
-$primary: #007aff;
-$link: #007aff;
-$success: #34C759;
-$danger: #FF3B30;
-$warning: #FFCC00;
+$blue: #007aff;
+$red: #FF3B30;
+$yellow: #FFCC00;
+$green: #34C759;
+
+$primary: $blue;
+$link: $blue;
+$success: $green;
+$danger: $red;
+$warning: $yellow;
 
 $family-monospace: 'Fira Mono', monospace;
 
